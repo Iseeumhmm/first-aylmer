@@ -162,7 +162,7 @@ li:focus {
   padding-top: 10rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 414px) {
   .home .events {
     padding-top: 7rem;
   }
