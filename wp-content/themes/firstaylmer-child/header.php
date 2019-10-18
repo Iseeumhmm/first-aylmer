@@ -19,6 +19,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+HK:400,700&display=swap" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<link href="<?php echo get_stylesheet_directory_uri() ?>/style.css" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
