@@ -39,7 +39,7 @@ get_header();
 							<?php if ( $wpb_all_query->have_posts() ) : while ( $wpb_all_query->have_posts() ) : ?>
 							<?php $wpb_all_query->the_post(); ?>
 							<div class="container-fluid">
-								<div class="row" data-aos="slide-right">
+								<div class="row"">
 									<div class="events-image col-md-5" style="background-image: url('<?php the_field('image');?>')"></div>
 									<div class="col-md-7 events-text--upcoming">
 										<h2><?php the_title(); ?> - <?php the_field( 'date' ); ?></h2>
@@ -63,7 +63,7 @@ get_header();
 							<?php $i = 0 ?>
 							<?php if ( $wpb_all_query->have_posts() ) : while ( $wpb_all_query->have_posts() ) : ?>
 							<?php $wpb_all_query->the_post(); ?>
-							<div class="row" data-aos="slide-left">
+							<div class="row"">
 								<div class="events-image events-image--recent" style="background-image: url('<?php the_field('image');?>')"></div>
 								<div class="">
 									<h2><?php the_title(); ?> - <?php the_field( 'date' ); ?></h2>
